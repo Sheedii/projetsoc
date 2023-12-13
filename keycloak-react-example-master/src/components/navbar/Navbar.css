@@ -1,0 +1,41 @@
+/* Navbar.css */
+.navbar {
+    background-color: rgb(92, 56, 222);
+    padding: 5px 5px; /* Adjust padding for a more compact look */
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow for depth */
+  }
+  
+  .navbar-nav {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center; /* Vertically center items within the navbar */
+  }
+  
+  .nav-item {
+    margin-right: 15px;
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: rgb(124, 173, 198);
+    transition: background-color 0.3s ease; /* Add a smooth transition */
+  }
+  
+  .nav-link:hover {
+    background-color: rgb(100, 150, 200); /* Change color on hover */
+  }
+  
+  /* Optional: Add a subtle gradient for a more refined appearance */
+  .navbar {
+    background: linear-gradient(to right, rgb(92, 56, 222), rgb(52, 16, 186));
+  }
+  
